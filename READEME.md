@@ -1,27 +1,26 @@
 ## Table of Contents
-
 1. [Prerequisites](#prerequisites)
 2. [Docker Build and Run Instructions](#docker-build-and-run-instructions)
 3. [Testing](#testing)
-   -  [Running Tests](#running-tests)
+   - [Running Tests](#running-tests)
 4. [Design Rationale with Example Usage of the API](#design-rationale-with-example-usage-of-the-api)
-   -  Controllers
-      -  [optimalPlantingController.ts](#optimalplantingcontrollerts)
-      -  [simulationController.ts](#simulationcontrollerts)
-   -  Models
-      -  [SimulationRequest.ts](#simulationrequestts)
-      -  [weatherData.ts](#weatherdatats)
-   -  Middlewares
-      -  [validationMiddleware.ts](#validationmiddlewarets)
-      -  [errorHandler.ts](#errorhandlerts)
-   -  Routes
-      -  [simulationRoutes.ts](#simulationroutests)
-      -  [optimalPlantingRoutes.ts](#optimalplantingroutests)
-   -  Database Connection
-   -  Server
+   - Controllers
+       - [optimalPlantingController.ts](#optimalplantingcontrollerts)
+       - [simulationController.ts](#simulationcontrollerts)
+   - Models
+       - [SimulationRequest.ts](#simulationrequestts)
+       - [weatherData.ts](#weatherdatats)
+   - Middlewares
+       - [validationMiddleware.ts](#validationmiddlewarets)
+       - [errorHandler.ts](#errorhandlerts)
+   - Routes
+       - [simulationRoutes.ts](#simulationroutests)
+       - [optimalPlantingRoutes.ts](#optimalplantingroutests)
+   - Database Connection 
+   - Server
 5. [Example Requests](#example-requests)
-   -  POST Request: /simulate-yield
-   -  GET Request: /optimal-planting-time
+   - POST Request: /simulate-yield
+   - GET Request: /optimal-planting-time
 6. [Explanation of the New Optimal-Planting-Time Endpoint](#explanation-of-the-new-optimal-planting-time-endpoint)
 7. [Analysis of Historical Data for Optimal Planting Time](#documentation-analysis-of-historical-data-for-optimal-planting-time)
 8. [Steps to Install and Run MongoDB Community Edition Locally Using `mongod`](#)
@@ -636,3 +635,16 @@ The server will start and listen on port `27017`.
 1. **Default Port**: MongoDB listens on port `27017` by default.
 2. **Configuration File**: You can use a configuration file (`mongod.cfg`) to specify options like `dbpath`, ports, etc.
 3. **Running as a Service**: For production environments, consider running MongoDB as a service for automatic startup.
+
+   
+<img width="1519" alt="Screenshot 2025-03-08 at 5 19 57 PM" src="https://github.com/user-attachments/assets/11886c58-3abf-441f-9004-fce26fd325a7" />
+<img width="1533" alt="Screenshot 2025-03-08 at 5 20 12 PM" src="https://github.com/user-attachments/assets/6ea89c8d-a03d-496b-9340-4c5db4a869a9" />
+<img width="1569" alt="Screenshot 2025-03-08 at 5 20 55 PM" src="https://github.com/user-attachments/assets/557c374e-14c8-4a20-b466-b16d7bcacf60" />
+<img width="1707" alt="Screenshot 2025-03-08 at 5 22 21 PM" src="https://github.com/user-attachments/assets/051b5379-6ccf-45dc-9fb2-87a073f3e926" />
+<img width="1707" alt="Screenshot 2025-03-08 at 5 22 38 PM" src="https://github.com/user-attachments/assets/619d08fe-ab00-4fcc-9eb7-b5afb53af5c1" />
+<img width="1577" alt="Screenshot 2025-03-08 at 5 24 32 PM" src="https://github.com/user-attachments/assets/196f0799-f1f9-4615-9309-06da8c8d5cdb" />
+<img width="1561" alt="Screenshot 2025-03-08 at 5 25 11 PM" src="https://github.com/user-attachments/assets/7927902e-2db6-4b75-8a9b-d7c46996ac61" />
+
+
+
+
