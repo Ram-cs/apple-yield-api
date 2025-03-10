@@ -75,7 +75,7 @@ const calculateWeatherAdjustment = (
    return Math.max(0, adjustment);
 };
 
-const calculateYield = ({
+export const calculateYield = ({
    tree_count,
    apples_per_tree,
    weather_data,
